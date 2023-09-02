@@ -355,3 +355,21 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+.custom-table table {
+   border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+   padding: 8px;
+   border-bottom: 1px solid #f8f8f8;
+}
+
+.custom-table tr:hover {
+   background-color: #111111;
+}
+
+.custom-table th {
+   background-color: #04AA6D;
+   color: white;
+}
