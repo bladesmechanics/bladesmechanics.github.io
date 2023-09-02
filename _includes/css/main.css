@@ -115,7 +115,7 @@ hr {
 {% assign navborder_active = 6 %}
 
 nav {
-  font-size:15px;
+  font-size:16px;
   width:100%;
   position:fixed;
   z-index:100;
@@ -358,6 +358,8 @@ nav ul li:hover, nav ul li.active {
 
 .custom-table table {
    border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .custom-table th, .custom-table td {
@@ -370,6 +372,6 @@ nav ul li:hover, nav ul li.active {
 }
 
 .custom-table th {
-   background-color: #04AA6D;
+   background-color: #111111;
    color: white;
 }
